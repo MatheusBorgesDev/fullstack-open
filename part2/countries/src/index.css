@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+}
+
+input {
+  padding: 6px 8px;
+  width: 320px;
+  max-width: 100%;
+}
+
+button {
+  padding: 4px 10px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.country-row {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.flag {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ccc;
+  margin-top: 12px;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+}
+
+ul {
+  margin: 4px 0;
+  padding-left: 20px;
+}
